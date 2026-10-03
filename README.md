@@ -22,16 +22,16 @@ The pictures above use sample projects.
 
 ## Install
 
-You need macOS 14 or newer, and Xcode.
+Download [Still Up for macOS](https://github.com/sahkilic/still-up/releases/latest/download/Still-Up.zip) (macOS 14 or newer). Unzip it and drag Still Up into Applications.
+
+The app isn't notarized. The first time, right-click it, choose Open, then Open again.
+
+To build it yourself, you need Xcode.
 
 ```bash
 ./build-app.sh
 open "dist/Still Up.app"
 ```
-
-That writes `dist/Still Up.app`. Open it, or drag it into Applications.
-
-The app isn't notarized. The first time, right-click it, choose Open, then Open again.
 
 ## What it leaves alone
 
